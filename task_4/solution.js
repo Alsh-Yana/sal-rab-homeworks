@@ -1,5 +1,4 @@
 // Задание 4.1. Вывод карточек товаров
-
 function parseProducts(json) {
     let data = JSON.parse(json);
     return data.products;
